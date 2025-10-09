@@ -27,12 +27,12 @@ class _AddEditTransactionScreenState extends State<AddEditTransactionScreen> {
           children: [
             TextField(
               controller: _titleController,
-              decoration: const InputDecoration(labelText: 'University'),
+              decoration: const InputDecoration(labelText: 'University.'),
             ),
 
             TextField(
               controller: _amountController,
-              decoration: const InputDecoration(labelText: 'ระดับปริญญา'),
+              decoration: const InputDecoration(labelText: 'ระดับปริญญา.'),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
